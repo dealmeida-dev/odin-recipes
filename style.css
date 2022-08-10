@@ -5,26 +5,125 @@
 
 }
 
+/* IMAGES */
+.fotos {
+  width: 350px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
 
 img {
   width: 300px;
   height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 20px;
 }
 
-.sa {
-  width: 250px;
-  height: 250px;
+
+
+/* LISTS */
+
+li {
+  list-style-type: none;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
+
+.instructions {
+
+  border-bottom: 1px solid black;
+  display: block;
+  padding-bottom: 8px;
+}
+
+.directions {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.ingredients {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* HEADINGS */
 
 h1 {
   font-family: 'Libre Baskerville', serif;
   text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccaa87;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px auto 30px auto;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+}
+
+/* FOOTER */
+
+span {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* BUTTONS */
+
+
+
+section > a {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  text-decoration: none;
+  
 }
 
 
-li {
-  list-style-type: none;
+.homeLinks {
+  height: 350px;
+  width: 33.3333%;
+  float: left;
+  padding: 40px
+}
+
+.home {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  border: 2px solid #abc2db;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+/* COLORS */
+
+h1 {
+  color: #abc2db;
+}
+
+a {
+  color: #c09569;
+}
+
+.homeLinks {
+  border-right: 1px solid #c09569;
+}
+
+h2 {
+  color: #87a9cc;
 }
